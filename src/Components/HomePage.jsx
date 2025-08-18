@@ -1,26 +1,26 @@
 import React from "react";
-import header from "./HomePage/header"
-import hero from "./HomePage/hero"
+import Header from "./HomePage/header"
+import Hero from "./HomePage/hero"
 import HowItWorks from "./HomePage/HowItWorks"
 import Delivery from "./HomePage/Delivery"
 import WhyGrand from "./HomePage/WhyGrand"
-import testimonials from "./HomePage/testimonials"
-import favoriteMeals from "./HomePage/favoriteMeals"
+import Testimonials from "./HomePage/testimonials"
+import FavoriteMeals from "./HomePage/favoriteMeals"
 import FAQ from "./HomePage/FAQ"
-import footer from "./HomePage/footer"
+import Footer from "./HomePage/footer"
 
 const HomePage = () => {
     return (
         <>
-            <header/>
-            <hero/>
+            <Header/>
+            <Hero/>
             <HowItWorks/>
             <Delivery />
             <WhyGrand/>
-            <testimonials/>
-            <favoriteMeals/>
+            <Testimonials/>
+            <FavoriteMeals/>
             <FAQ/>
-            <footer/>
+            <Footer/>
             </>
     );
 };
