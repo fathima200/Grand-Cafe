@@ -1,7 +1,7 @@
 import React from "react";
-import grandhero from '../Uploads/grandhero'; 
+// import grandhero from '../Uploads/grandhero.jpg'; 
 
-const hero = () =>{
+const Hero = () => {
     return (
         
         <section className="hero">
@@ -19,4 +19,4 @@ const hero = () =>{
     );
 };
 
-export default hero;
+export default Hero;

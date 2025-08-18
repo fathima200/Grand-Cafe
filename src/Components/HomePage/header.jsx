@@ -1,12 +1,14 @@
 import React from "react";
-import'./index.css'
+import grandLogo from "../Uploads/grandlogo.jpg";
 
-const header =()=>{
+const Header =() => {
     return(
             <header className="header">
-                <div className="header__logo">GRAND</div>
+                <div className="header__logo">
+                    <img src={grandLogo} alt="GRAND" />
+                </div>
                 <nav className="header__nav">
-                    <a href="#">Home</a>"
+                    <a href="#">Home</a>
                     <a href="#">Menu</a>
                     <a href="#">How it works</a>
                     <a href="#">About</a>
@@ -22,4 +24,4 @@ const header =()=>{
                     </header>
     );
 };
-export default header;
+export default Header;
