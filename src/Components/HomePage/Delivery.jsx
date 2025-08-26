@@ -1,10 +1,13 @@
 import React from "react";
+import potato from "../Uploads/potato.png"
+import leaf from "../Uploads/leaf.png"
 
 const Delivery = () => {
     return (
         <section className="delivery">
+            <div className="delivery-content">
             <div className="image-container">
-                <img src="" alt=""/>
+                <img src={potato} alt=""/>
                  </div>
 
                  <div className="text-content">
@@ -17,8 +20,11 @@ const Delivery = () => {
                         <button className="contact">Contact Us</button>
                         <button className="menu">View Menu</button>
                     </div>
+                    <img src={leaf} alt="" />
+                    <img src={leaf} alt="" className="mirrored" />
                  </div>
-        </section>
+                 </div>
+        </section> 
     );
 };
 
