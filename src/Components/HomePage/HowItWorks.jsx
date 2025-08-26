@@ -1,28 +1,31 @@
 import React from 'react';
+import plate from "../Uploads/plate.png"
+import order from "../Uploads/order.png"
+import deliver from "../Uploads/deliver.png"
 
 const HowItWorks = () => {
   const steps = [
     {
       title: 'Choose Your Meals',
       description: '20+ menus to choose from',
-      img: '/images/choose-meals.png',
+      img: order,
     },
     {
       title: 'We Deliver It To You',
       description: 'Choose your dates for delivery',
-      img: '/images/delivery.png',
+      img: deliver,
     },
     {
       title: 'Cook & Enjoy',
       description: 'Eat your freshly cooked meal',
-      img: '/images/cook-enjoy.png',
+      img: plate,
     },
   ];
 
   return (
     <section className="how-it-works">
       <h2>Watch It Works</h2>
-      <div className="underline"></div>
+      <div className="underline-1"></div>
       <div className="steps">
         {steps.map((step, index) => (
           <div className="step" key={index}>
