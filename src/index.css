@@ -1539,7 +1539,8 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   height: fit-content;
-  sticky: top: 100px;
+  position: sticky;
+  top: 100px;
 }
 
 .order-summary h3 {
